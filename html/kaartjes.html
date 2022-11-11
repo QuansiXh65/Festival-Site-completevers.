@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaartjes bestellen</title>
+    <link href="../css/kaartjes.css" rel="stylesheet">
+<body>
+    
+    <!--Begin bovenbalk-->
+    <div class="content">
+        <div class="header">
+                <h1>Noorderfeest Live</h1>
+        </div>
+            <div class="topnav">
+                <a class="active" href="../html/home.html">Home</a>
+                <a href="../html/programma.html">Programma</a>
+                <a href="../html/kaartjes.html">Kaartjes</a>
+              </div>
+
+
+    <!--einde bovenbalk-->
+    
+    <div class="form">
+        <form action="welcome_get.php" method="get">
+            <ul>
+                <li>Name: <input type="text" name="name"></li><br>
+                <li>Adres: <input type="text" name="adress"></li><br>
+                <li>Email: <input type="text" name="email"></li><br>
+                <li>Aantal kaartjes: <input type="number"></li><br>
+    
+                <li>Zaterdag: <input type="radio" name="button" value="Zaterdag"></li><br>
+                <li>Zondag: <input type="radio" name="button" value="Zondag"></li><br>
+                <li>Beide: <input type="radio" name="button" value="Beide"></li><br>
+
+            
+            <input type="submit">
+            </ul>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <img src="../img/pngegg.png" class="icons" width="40px" height="40px">
+            <p class="nr">nummer</p>
+
+        <img src="../img/mail.png" class="icons" width="40px" height="40px">
+            <p class="email">e-mail</p><br>
+
+            <p>makers: Joey Simons<br>
+            Youri Stehouwer<br>
+            Quinty Hutzezon<br>
+            </p><br>
+    </footer>
+</body>
+</html>
